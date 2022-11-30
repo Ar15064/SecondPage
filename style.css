@@ -4,7 +4,113 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.this {
+
+
+.top {
+    background-image: url(Pictures/black.jpeg);
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div.container {
     display: flex;
+    border: groove black;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))url(Pictures/black.jpeg);
+    background-color: black;
+    
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    margin-top: 0%;
+    
+}
+
+div.container > div.duck {
+
+    border: groove;
+    display: flex;
+    border-color: transparent;
+    background-image: url(Pictures/Dimond2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+    width: 500px;
+
+
+}
+
+div.text {
+    display: inline-block;
+    border: groove;
+    border-color: transparent;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    margin-left: 1100px;
+    margin-top: 200px;
+    
+    
+}
+
+fieldset {   
+    border: groove;
+    
     justify-content: center;
+    
+    margin: auto;
+    margin-top: 10px;
+
+    width: 400px;
+    
+}
+
+
+div.forms > fieldset > div.classColor {
+    display: flex;
+}
+
+div.forms > fieldset > div.classColor > label.color{
+    
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+
+div.forms > fieldset > div.classColor > input.inputcolor{
+    margin-left: 80px;
+    height: 30px;
+    width: 60px;
+    
+}
+
+div.forms > fieldset > div.classColor > label.color2{
+    
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    margin-left: 30px;
+}
+
+
+
+div.forms > fieldset > div.classColor > input.inputcolor2{
+    margin-left: 80px;
+    height: 30px;
+    width: 60px;
+    
+}
+
+
+
+
+div.forms > fieldset > div.classSubmit {
+    text-align: center;
+    margin-top: 30px;
+
 }
