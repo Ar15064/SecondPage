@@ -1,116 +1,54 @@
 body {
-    background-color: black;
-    font-size: x-large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(0, 0, 0, 0.234);
+
 }
 
 
-
-.top {
-    background-image: url(Pictures/black.jpeg);
-    height: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
-div.container {
+.borderDuck {
     display: flex;
-    border: groove black;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))url(Pictures/black.jpeg);
-    background-color: black;
-    
+    border: solid;
+    border-color: transparent;
+    margin:auto;
+    height: 380px;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+
+}
+
+
+.duck {
+    margin-top: 30px;
+    border: solid;
     height: 300px;
     width: 500px;
-    margin: auto;
-    margin-top: 0%;
-    
-}
-
-div.container > div.duck {
-
-    border: groove;
-    display: flex;
-    border-color: transparent;
-    background-image: url(Pictures/Dimond2.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(Pictures/Dimond.jpeg);
     background-size: cover;
-    
-    
-
-    width: 500px;
-
-
-}
-
-div.text {
-    display: inline-block;
-    border: groove;
-    border-color: transparent;
-    text-align: center;
-    width: 300px;
-    height: 100px;
-    margin-left: 1100px;
-    margin-top: 200px;
+    background-repeat: no-repeat;
     
     
 }
-
-fieldset {   
-    border: groove;
-    
-    justify-content: center;
-    
-    margin: auto;
-    margin-top: 10px;
-
-    width: 400px;
-    
-}
-
-
-div.forms > fieldset > div.classColor {
+fieldset.buttons {
     display: flex;
+    justify-content: center;
+    border-color: transparent;
 }
 
-div.forms > fieldset > div.classColor > label.color{
-    
-    font-weight: 700;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: x-large;
-}
-
-div.forms > fieldset > div.classColor > input.inputcolor{
+fieldset.buttons > div.classColor > label.color2 {
     margin-left: 80px;
-    height: 30px;
-    width: 60px;
-    
-}
-
-div.forms > fieldset > div.classColor > label.color2{
-    
-    font-weight: 700;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: x-large;
-    margin-left: 30px;
 }
 
 
-
-div.forms > fieldset > div.classColor > input.inputcolor2{
-    margin-left: 80px;
-    height: 30px;
-    width: 60px;
-    
+fieldset.buttons1 {
+    display: flex;
+    justify-content: center;
+    border-color: transparent;
 }
-
-
-
-
-div.forms > fieldset > div.classSubmit {
-    text-align: center;
-    margin-top: 30px;
-
+fieldset.buttons > div.text > label.move {
+    margin-right: 20px;
 }
